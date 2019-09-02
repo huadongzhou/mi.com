@@ -1,3 +1,4 @@
+
 .topNav{
   height: 40px;
   background: #333;
@@ -95,7 +96,7 @@
 }
 .rightTopNav .shop-car{
   width: 120px;
-  line-height: 40px;
+  line-height: 38px;
   margin-left: 20px; 
   color: #b0b0b0;
   display: inline-block;
@@ -372,4 +373,210 @@
 }
 .carousel .boot-page a:first-child{
   background: #fff;
+}
+/* 功能区  */
+.function{
+  height: 170px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.function .left-function{
+  width: 228px;
+  height: 164px;
+  padding: 3px;
+  background: #5f5750;
+  text-align: center;
+  float: left;
+}
+.function .left-function li{
+  width: 76px;
+  height: 82px;
+  float: left;
+}
+.function .left-function li a{
+  display: block;
+  padding-top: 18px;
+  opacity: .7;
+  color: #fff;
+}
+.function .left-function li a img{
+  width: 24px;
+  height: 24px;
+  display: block;
+  margin: 0 auto 4px;
+}
+.function .left-function li a:hover{
+  opacity: 1;
+}
+/* 右侧广告区 */
+.function .right-generalize{
+   width: 978px;
+   height: 170px;
+   float: left;
+   margin-left: 14px;
+}
+.function .right-generalize li{
+  width: 316px;
+  height: 170px;
+  float: left;
+  margin-left: 15px;
+}
+.function .right-generalize li:first-child{
+  margin-left: 0;
+}
+.function .right-generalize li a{
+  display: block;
+}
+.function .right-generalize li a img{
+  display: block;
+  width: 316px;
+  height: 170px;
+}
+/* 广告位置样式 */
+.allContent{
+  margin-top: 4px;
+  margin-bottom: 12px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+.allContent .mishangou{
+  margin-bottom: 22px;
+}
+
+/* 内容 */
+.allContent .content{
+  height: 340px;
+}
+.allContent .content .left-info{
+  float: left;
+  width: 234px;
+  height: 301px;
+  padding-top: 39px; 
+  text-align: center;
+  background: #f1eded;
+  margin-left: 14px;
+}
+.allContent .content .left-info .round{
+  font-size: 21px;
+  color: #ef3a3b;
+  padding-top: 15px;
+}
+.allContent .content .left-info>i{
+  display: block;
+  font-size: 50px;
+  color: #e53934;
+  margin: 25px auto;
+}
+.allContent .content .left-info .desc{
+  color: rgba(0,0,0,.54);
+  font-size: 15px;
+}
+.allContent .content .left-info .time-down{
+  width: 168px;
+  margin: 20px auto 0;
+  overflow: hidden;
+}
+.allContent .content .left-info .time-down span{
+  width: 46px;
+  height: 31px;
+  color: #fff;
+  background: #605751;
+  padding-top: 15px;
+  float: left;
+}
+.allContent .content .left-info .time-down i{
+  width: 15px;
+  height: 46px;
+  line-height: 46px;
+  color: #605751;
+  font-size: 28px;
+  font-style: normal;
+  float: left;
+}
+.allContent .content .right-carousel{
+  float: left;
+  width: 978px;
+  height: 340px;
+  margin-left: 14px;
+}
+.allContent .content .right-carousel li{
+  float: left;
+  width: 234px;
+  height: 339px;
+  margin-right: 14px;
+  background: #fff;
+}
+.allContent .content .right-carousel li:last-child{
+  margin-right: 0;
+}
+.allContent .content .right-carousel li a{
+  display: block;
+  text-align: center;
+  padding-top: 39px;
+}
+.allContent .content .right-carousel li img{
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 22px;
+}
+.allContent .content .right-carousel li .name{
+  display: block;
+  margin: 0 auto 3px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #212121;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.allContent .content .right-carousel li .desc{
+  width: 200px;
+  height: 18px;
+  margin: 0 auto 12px;
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #b0b0b0;
+}
+.allContent .content .right-carousel li .price{
+  margin: 0;
+  color: #ff6709;
+}
+.allContent .content .right-carousel li .price del{
+  color: #b0b0b0;
+}
+/* 广告 一 */
+.home-banner{
+  height: 120px;
+  margin: 20px 0;
+}
+/* 手机头部 */
+.phone{
+  overflow: hidden;
+}
+.phone .title .option-span a{
+  display: block;
+  font-size: 0;
+  font-size: 16px;
+  line-height: 58px;
+  color: #424242;
+}
+.phone .left-phone{
+  float: left;
+  width: 234px;
+  height: 614px;
+  margin-bottom: 14px;
+  margin-left: 14px;
+}
+.phone .left-phone a{
+  display: block;
+}
+.phone .left-phone img{
+  width: 100%;
+  height: 100%;
+}
+.phone .right-carousel li{
+    height: 260px;
+    padding: 20px 0;
 }
